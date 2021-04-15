@@ -1,0 +1,42 @@
+/*              positionement relative            */
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #385d8a;
+    margin-top: 1px;
+}
+.box.one{
+    background-color: #d99694;
+}
+.box.two{
+    background-color: #c4bd97;
+}
+.box.three{
+    background-color: #558ed5;
+}
+
+.figure_two .box.two{
+    position: relative;
+    margin-left: 102px;
+}
+.figure_two .box.three{
+    position: relative;
+    margin-left: 204px;
+}
+
+.figure_three .box.one{
+    width: 208px;
+    height: 100px;
+    border: 2px solid #385d8a;
+}
+.figure_three .box.three{
+    position: relative;
+    margin-top: -104px;
+    margin-left: 108px;
+}
+.figure_four .box.two{
+    position: relative;
+    margin-top: -104px;
+    margin-left: 106px;
+}
+

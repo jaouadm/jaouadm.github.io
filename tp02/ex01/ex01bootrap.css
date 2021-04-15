@@ -1,0 +1,24 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #385d8a;
+    margin-top: 1px;
+}
+
+.box.one {
+    background-color: #d99694;
+}
+
+.box.two {
+    background-color: #c4bd97;
+}
+
+.box.three {
+    background-color: #558ed5;
+}
+.figure.two .box.two{
+    margin-left: 100px;
+}
+.figure.two .box.three{
+    margin-left: 200px;
+}

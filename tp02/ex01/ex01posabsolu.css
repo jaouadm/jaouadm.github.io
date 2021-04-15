@@ -1,0 +1,64 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #385d8a;
+    margin-top: 1px;
+}
+
+.box.one {
+    background-color: #d99694;
+}
+
+.box.two {
+    background-color: #c4bd97;
+}
+
+.box.three {
+    background-color: #558ed5;
+}
+
+.figure {
+    position: relative;
+    height: 350px;
+}
+
+.figure.two .box.two {
+    position: absolute;
+    top: 104px;
+    left: 104px;
+}
+
+.figure.two .box.three {
+    position: absolute;
+    top: 208px;
+    left: 208px;
+
+}
+
+
+.figure.three .box.one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 208px;
+    height: 100px;
+}
+
+.figure.three .box.two {
+    position: absolute;
+    top: 106px;
+    left: 0;
+}
+
+.figure.three .box.three {
+    position: absolute;
+    top: 106px;
+    left: 108px;
+}
+
+.figure.four .box.three {
+    position: absolute;
+    top: 0;
+    left: 106px;
+}
+

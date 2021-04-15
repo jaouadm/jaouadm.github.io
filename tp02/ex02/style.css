@@ -1,0 +1,44 @@
+.header{
+    border: 2px solid #385d8a;
+    height: 100px;
+    background-color: #548dd4;
+
+    margin: 20px 12px;
+}
+.section{
+    border: 2px solid #385d8a;
+    height: 100px;
+    background-color: #c3bc96;
+    margin: 15px 0;
+}
+.zero.section{
+    border: 2px solid #385d8a;
+    height: 60px;
+    background-color: #c3bc96;
+    margin: 5px 12px;
+}
+.one .section{
+    background-color: #c6d9f1;
+}
+.two .section{
+    background-color: #e6b9b8;
+}
+.three .section{
+    background-color: #c3d69b;
+}
+.four .section{
+    background-color: #f9bf8f;
+}
+.five.section{
+    background-color: #00afef;
+}
+.six.section{
+    background-color: #00afef;
+}
+.footer{
+    border: 2px solid #385d8a;
+    height: 100px;
+    background-color: #548dd4;
+
+    margin: 20px 12px;
+}
