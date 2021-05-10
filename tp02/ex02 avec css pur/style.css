@@ -1,0 +1,103 @@
+body{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+header, .section, footer{
+    
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: #558ed5;
+}
+.section{
+    height: 100px;
+    background-color: #c3bc96;
+}
+
+.parent-flex1, .parent-flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.child.one{
+    background-color: #c6d9f1;
+}
+.child.two{
+    margin: auto 5px auto 10px;
+    background-color: #e5b8b7;
+}
+.child.four{
+    background-color: #f9bf8f;
+}
+.child.three{
+    margin: auto 10px auto 5px;
+    background-color: #c3d69b;
+}
+.parent-flex2 .one{
+    margin: auto 5px auto 0;
+    background-color: #00b0f0;
+}
+.parent-flex2 .two{
+    margin: auto 0 auto 5px;
+    background-color: #00b0f0;
+}
+
+.parent-flex1 div{
+    width: 25%;
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+.parent-flex2 div{
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+
+footer{
+    height: 100px;
+    background-color: #b2a1c6;
+}
+
+/* affichage pour les ecrans moyens  */
+
+@media only screen and (max-width: 992px){
+    .parent-flex1 ,.parent-flex2{
+        flex-wrap: wrap;
+    }
+    .parent-flex1 .child{
+        flex: 45%;
+        margin: 15px 5px;
+    }
+    .parent-flex1 .one,.parent-flex1 .three{
+        margin-left: 0;
+    }
+    .parent-flex1 .two,.parent-flex1 .four{
+        margin-right: 0;
+    }
+    .parent-flex2 .child{
+        flex: 100%;
+        margin: 15px 0;
+    }
+}
+/* affichage pour les ecrans petites  */
+
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .parent-flex1 {
+        flex-wrap: wrap;
+    }
+    .parent-flex1 .child{
+        flex: 100%;
+        margin: 15px 0;
+    }
+    
+  }
