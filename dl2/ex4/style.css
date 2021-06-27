@@ -1,0 +1,195 @@
+body {
+    background-color: #efefef;
+    font-size: 13px;
+}
+
+.main-container {
+    width: 85%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.image img {
+    max-width: 100%;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.child.login {
+    width: 25%;
+    margin-left: 5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 59%;
+}
+
+.logo_section img {
+    width: 123px;
+    height: 123px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+
+}
+
+a:hover {
+    opacity: 1;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #003a6a;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.login input,
+.login label {
+    margin: 10px 0;
+    width: 100%;
+}
+
+
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 40px 0;
+}
+
+.description {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.column.one {
+    width: 60%;
+    /* padding: 10px; */
+}
+
+.column.two {
+    width: 36%;
+    /* margin-left: 5%; */
+    background-color: #ffffff;
+}
+
+.card img,
+.card-item img {
+    width: 65px;
+    height: 65px;
+    border: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card.one ,.card.two{
+    width: 45%;
+    font-size: 12px;
+}
+
+
+.card-item {
+    display: flex;
+    
+    padding: 5px;
+}
+
+.card h4,
+.card-item h4 {
+    font-size: 14px;
+}
+
+.card p,
+.card-item p {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.card div,.card-item div {
+    padding-left: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width : 992px) {
+
+
+    .container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child.login {
+        padding: 0;
+        margin: 20px 10px;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .image img {
+        width: 99%;
+        
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .container-section ,.cards{
+        display: initial;
+
+
+    }
+    .column.one,
+    .column.two,
+    .card {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .card.one ,.card.two{
+        width: 100%;
+    }
+
+}
